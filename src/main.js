@@ -1,6 +1,12 @@
-const { Words } = require('./words');
+require('colors');
 const fs = require('fs');
 const path = require('path');
+const { Words } = require('./words');
+const timeKey = 'wordle-time'.green;
+console.time(timeKey);
 const words = new Words();
 const input = fs.readFileSync(path.join(__dirname, '../input/pattern.txt'), 'utf8').split('\n')[0];
-console.log(words.match(input));
+const wordsDict = words.match(input).map(word => ({ word }));
+console.table(wordsDict);
+console.log(`Found ${wordsDict.length} words.`.bgYellow.black);
+console.timeEnd(timeKey);
