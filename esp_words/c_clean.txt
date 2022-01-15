@@ -102,7 +102,7 @@ casba
 casca
 casco
 casia
-Casio
+casio
 casis
 casón
 caspa
@@ -311,7 +311,7 @@ coatí
 cobez
 cobil
 cobla
-Cobos
+cobos
 cobro
 cocar
 cocer
@@ -369,14 +369,14 @@ copón
 copra
 coque
 coquí
-Corán
+corán
 coras
 corbe
 corca
 corco
 corda
 corea
-Coria
+coria
 corío
 corla
 corma

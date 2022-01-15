@@ -89,7 +89,7 @@ teína
 tejer
 telar
 télex
-Telmo
+telmo
 telón
 temar
 temer
@@ -121,7 +121,7 @@ tezar
 tiaca
 tiara
 tíbar
-Tíbet
+tíbet
 tibia
 tibor
 tifón
@@ -266,7 +266,7 @@ tropo
 trote
 trova
 trovo
-Troya
+troya
 trozo
 truca
 truco
@@ -292,7 +292,7 @@ tumor
 tunal
 tunar
 túnel
-Túnez
+túnez
 tunjo
 tunta
 tupín

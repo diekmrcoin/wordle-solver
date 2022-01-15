@@ -78,7 +78,7 @@ godeo
 gofre
 goles
 golfa
-Golgi
+golgi
 golpe
 gomal
 gomar
@@ -96,7 +96,7 @@ gorro
 goteo
 gozar
 gozne
-Graaf
+graaf
 grafo
 grama
 gramo

@@ -1,5 +1,5 @@
 babel
-Babia
+babia
 bable
 babor
 bacía
@@ -39,7 +39,7 @@ banyo
 banzo
 bañar
 bañil
-Bañón
+bañón
 barba
 barbo
 barca

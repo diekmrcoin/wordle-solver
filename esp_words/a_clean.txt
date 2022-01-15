@@ -100,7 +100,7 @@ aillu
 aínas
 airar
 aireo
-Airón
+airón
 ajajá
 ajebe
 ajete
@@ -154,7 +154,7 @@ aliño
 alioj
 aljez
 aljor
-Allen
+allen
 almez
 almuz
 alora
@@ -218,7 +218,7 @@ anjeo
 ansia
 antes
 antia
-Antón
+antón
 antro
 anual
 ánulo

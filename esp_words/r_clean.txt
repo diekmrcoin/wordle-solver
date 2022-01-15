@@ -21,7 +21,7 @@ rally
 ramal
 ramio
 ramón
-Ramos
+ramos
 randa
 rango
 rapar
@@ -149,7 +149,7 @@ rocío
 rodal
 rodao
 rodar
-Rodas
+rodas
 rodea
 rodeo
 rodil

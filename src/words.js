@@ -18,8 +18,17 @@ class Words {
     });
   }
 
-  match(patter) {
-    return Object.keys(this.words).filter(word => word.match(patter));
+  /**
+   * @param {string} patter
+   * @param {string[]} ignoreLetters
+   * @returns {string[]}
+   */
+  match(patter, ignoreLetters) {
+    return Object.keys(this.words)
+      .filter(word =>
+        word.match(patter) &&
+        !ignoreLetters.some(letter => word.includes(letter)),
+      );
   }
 }
 

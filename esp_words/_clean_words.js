@@ -12,5 +12,8 @@ for (const file of files) {
   // exclude words with numbers
   cleanWords = cleanWords.filter(word => !word.match(/\d/));
   // write clean words to file
-  fs.writeFileSync(path.join(__dirname, file.replace('.txt', '_clean.txt')), cleanWords.join('\n'));
+  fs.writeFileSync(
+    path.join(__dirname, file.replace('.txt', '_clean.txt')),
+    cleanWords.map(word => word.toLowerCase()).join('\n'),
+  );
 }
