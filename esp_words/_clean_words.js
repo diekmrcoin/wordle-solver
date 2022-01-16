@@ -7,6 +7,7 @@ for (const file of files) {
   const words = fs.readFileSync(path.join(__dirname, file), 'utf8').split('\n');
   // filter words with length = 5
   let cleanWords = words.filter(word => word.length === 5);
+  // TODO: filter words with masculine and feminine containing the comma
   // exclude words with -, _, or .
   cleanWords = cleanWords.filter(word => !word.includes('-') && !word.includes('_') && !word.includes('.'));
   // exclude words with numbers
