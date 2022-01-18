@@ -24,7 +24,6 @@ class Words {
    * @returns {string[]}
    */
   match(patter, ignoreLetters) {
-    // TODO: accents are not supported
     return Object.keys(this.words)
       .filter(word =>
         word.match(patter) &&
