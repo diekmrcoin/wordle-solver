@@ -19,15 +19,24 @@ class Words {
   }
 
   /**
-   * @param {string} patter
+   * @param {string} pattern
+   * @param {string[]} excludePatterns
+   * @param {string[]} includeLetters
    * @param {string[]} ignoreLetters
    * @returns {string[]}
    */
-  match(patter, ignoreLetters) {
+  match(pattern, excludePatterns, includeLetters, ignoreLetters) {
     return Object.keys(this.words)
-      .filter(word =>
-        word.match(patter) &&
-        !ignoreLetters.some(letter => word.includes(letter)),
+      .filter(word => {
+          let match = word.match(pattern);
+          if (match && excludePatterns.length > 0)
+            match = !excludePatterns.some(excludePattern => word.match(excludePattern));
+          if (match && includeLetters.length > 0)
+            match = includeLetters.every(letter => word.includes(letter));
+          if (match && ignoreLetters.length > 0)
+            match = !ignoreLetters.some(letter => word.includes(letter));
+          return match;
+        },
       );
   }
 }
